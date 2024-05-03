@@ -1,0 +1,39 @@
+operadores aritmeticos:
++ suma
+- resta
+* multi
+/ divicion
+% modulo
+** potencia
+
+
+operadores de incrementar:
+++a incrementa el valor mas 1 e imprime
+a++ incrementa valor mas 1 pero no imprime el resultado
+--a
+a--
+
+
+operadores de asignacion:
+a += 5 asignar valor mas 5
+
+
+Operadores de comparacion
+a > 5 mayor que
+a >= 5 mayor igual que
+a < 5 menor que
+a <= 5 menor igual que
+a == 10 es igual que
+a != 10 es distinto que
+a == '10' es igual el valor que
+a === '10' es igual el valor y el tipo de valor que
+a !== '10' es distinto que
+
+
+Operdadores logicos
+&& es AND es verdadero si los dos variables son verdaderos
+|| es OR  es verdadero si uno de las dos variables es verdadera
+!var es NOT deniega la variable
+
+
+

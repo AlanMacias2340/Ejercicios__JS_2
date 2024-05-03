@@ -1,0 +1,5 @@
+a = 1 el valor de este se almacena en una direccion de memoria
+b = {} se almacena la direccion de memoria de este valor el cual se encuentra en otra direccion
+
+son conocidos como datos primitivos y por referencia
+

@@ -1,0 +1,13 @@
+let punto = {x:10};
+
+Object.assign({},punto, {z:20, x:1}); para clonar un objeto y asignar una nueva propiedades
+
+
+let copia_punto = Object.assign({},punto);
+
+
+let copia3 = {...punto}; crear una copia exacta del objeto punto un poco mas actual
+
+
+
+

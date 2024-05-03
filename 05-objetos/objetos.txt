@@ -1,0 +1,27 @@
+puedes agregarle propiedades que pueden ser boolean o funciones
+let user = {
+    email:'alan@gmail.com',
+    direccion:{
+        calle:'..',
+        numero:15
+    },
+    activo:true,
+    recuperarClave: function(){
+        console.log("soy una funcion")
+    }
+}
+
+Dinamismo:
+
+const user = {id:1};
+user.name = 'alan';
+user.guardar = fucntion(){ a esto se lo conoce como funcion anonima
+    console.log("...")
+}
+
+NOTA: si un parametro es constante y recibe un objeto como argumento, el parametro no se puede cambiar de valor, pero si las propiedades del objeto
+
+delete user.name;
+
+const user2 = Object.freeze({id:1}); Con esto no podras agregar mas propiedades
+const user3 = Object.seal({id:1}); Con esto puedes modificar los valores pero no aumentar propiedades

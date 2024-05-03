@@ -1,0 +1,13 @@
+function crearUsuario(email,name){
+    return {
+    email:email,
+    name:name,
+    activo:true,
+    recuperarClave: function(){ esto ya no es una funcion sino un metodo
+        console.log("soy una funcion")
+    }
+    }
+}
+
+let user1 = crearUsuario('alan','alan');
+user1.email = 'new email';

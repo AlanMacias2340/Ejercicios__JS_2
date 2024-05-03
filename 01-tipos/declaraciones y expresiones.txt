@@ -1,0 +1,16 @@
+expresion y declaraciones
+
+
+declaration:
+-let
+-const
+-function
+-asyn function
+-class
+-export/import
+
+
+expression:
+4+6 -> 10
+x = 4
+mifuncion()

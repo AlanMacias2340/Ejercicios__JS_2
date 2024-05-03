@@ -1,0 +1,46 @@
+control IF:
+if(edad > 25){
+    si es verdadero
+}else if (edad > 13){
+    es falso pero puede ser verdadero
+}else{
+    si es falso
+}
+
+
+control WHILE:
+while(condicion){
+    se cumple hasta que la condicion devuelva FALSE
+}
+
+
+Control DO WHILE:
+do{
+    empieza y termina hasta que la condicion devuelva FALSE
+}while(condicion)
+
+
+Control FOR:
+for (inicial;comparacion;terminacion){
+    se cumple hasta que la comparacion devuelva FALSE
+}
+
+Control FOR OF:
+bueno para los arrays
+animales['chancho','dragon','perro']
+for (let animal of animales){
+    se cumple hasta que la lista array termine
+}
+
+Control FOR IN:
+bueno para objetos
+let user = {
+    id:1,
+    name:'alan',
+    age:25,
+}
+
+for (let propiedad in user){
+    se cumple hasta que todas las propiedades sean llamadas del objeto
+    solo devuelve las keys
+}

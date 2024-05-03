@@ -1,0 +1,3 @@
+para crear variables privadas, dentro del objeto como una nueva propidad se debe utilizar let
+
+let objeto = function(){}

@@ -1,0 +1,14 @@
+FALSY:
+-false
+-0
+-''
+-null
+-undefined
+-NaN
+
+El uso de los ahort circuit es en base a operadores logicos
+es decir:
+[]&&{} esto dara como resultado {} debido a "el operador AND devuelve un valor del segundo TRUE"
+[]||{} esto dara como resultado [] debido a "el operador OR devuelve un valor del primer TRUE"
+
+esto solo funciona si todos evaluan en TRUE

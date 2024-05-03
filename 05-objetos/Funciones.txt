@@ -1,0 +1,23 @@
+La funciones tambien son objetos en JS y se conocen como objetos de primera clase.
+
+function User(name){
+    this.name = name;
+}
+
+console.log(User.name); Devuelve el nombre de la funcion
+console.log(User.length); Devuelve la cantidad de propiedades
+
+const U = User; Puedes pasar una funcion como argumento
+let user = new U('alan');
+
+console.log(user);
+
+
+Contructor Function:
+
+const Point = new Function('primerParametro','segundoParametro', 'contenido de la funcion');
+
+let punto = {z:7}; este es un nuevo objeto
+Punto.call(punto,1,2); sirve para extender el anterior objeto
+Punto.apply(punto,[1,2]);
+

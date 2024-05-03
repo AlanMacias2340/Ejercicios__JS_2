@@ -1,0 +1,26 @@
+en este tipo de funcion contructora debe usarse UpperCamelCase
+
+function Usuario(){
+    this.id = 1;
+    this.recuperarClave = function(){ esto ya no se llama funcion sino metodos
+        console.log("recuperando");
+    }
+}
+
+let usuario = new Usuario(); para crear el contructor usando new
+
+
+Atajos constructores:
+
+let obj = {};
+let obj = new Object();
+
+new Array();
+new Number();
+new Boolean();
+
+"alan".metodoASeleccionar
+
+const s2 = new String('1+1')
+eval(s2) => String{'1+1'}
+s2.valueOf() => '1+1'

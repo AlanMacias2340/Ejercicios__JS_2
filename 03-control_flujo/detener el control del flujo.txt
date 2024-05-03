@@ -1,0 +1,14 @@
+para detener utiliza estos dos metodos:
+
+CONTINUE:
+while (i<6){
+    i++;
+    continue;
+    no se ejecutara;
+}
+
+BREAK:
+while (i<6){
+    i++;
+    break; termina el loop
+}

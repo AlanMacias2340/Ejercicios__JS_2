@@ -1,0 +1,10 @@
+switch(accion){
+    case '1':
+        imprime;
+        break;
+    case '2':
+        imprime;
+        break;
+    default:
+        imprime valor por defecto;
+}
