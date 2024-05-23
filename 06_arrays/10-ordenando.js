@@ -10,7 +10,7 @@ let abc = ['z','a','b'];
 abc.sort()
 console.log(abc);
 
-let abcConMayusculas = ['Z','a','b'];
+let abcConMayusculas = ['A','Z','d','X','a'];
 abcConMayusculas.sort((a,b)=>{
     let alower = a.toLowerCase();
     let blower = b.toLowerCase();

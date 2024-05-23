@@ -9,7 +9,7 @@ console.log(letras.lastIndexOf(1));
 
 
 //buscar el elemento si se encuentra devuelve true
-console.log(letras.includes('d'));
+console.log(letras.includes('o'));
 
 
 
