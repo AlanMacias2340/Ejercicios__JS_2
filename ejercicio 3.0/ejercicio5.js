@@ -7,8 +7,6 @@ const usuarios = [
 
 function obtenerMayor(arr) {
     return arr.reduce((acc,a)=> {
-        console.log(acc)
-        console.log(a)
         if(acc.edad > a.edad){
             return acc
         }
