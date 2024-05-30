@@ -20,5 +20,6 @@ const userOrder = userPass.sort((a,b)=>{
 console.log(userOrder)
 
 const userHtml = userOrder.map(x=>`<li>${x.nombre}</li>`);
-const aux = (`<ul>${userHtml.join("")}</ul>`);
+const aux = (`<ul>${userHtml.join(`
+`)}</ul>`);
 console.log(aux);
